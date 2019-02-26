@@ -1,0 +1,72 @@
+<%- include ../layouts/header.ejs %>
+
+<% if (messages.error) { %>
+    <p style="color:red"><%- messages.error %></p>
+<% } %>
+
+<% if (messages.success) { %>
+    <p style="color:green"><%- messages.success %></p>
+<% } %>
+
+<div class="container">
+      <div class="row mt-3">
+          <div class="col-md-6">
+          <div class="card">
+          <h5 class="card-header">Form Edit Data Buku</h5>
+              <div class="card-body">
+
+<form action="/buku/edit/<%= id %>" method="post" name="form1">
+    <form action="" method="post">
+      <div class="form-group">
+            <label for="judul">Judul</label>
+            <input type="text" class="form-control" name="judul" id="judul" value="<%= judul %>">
+            <small class="form-text text-danger"><?= form_error('judul') ?></small>
+            </div>
+
+      <div class="form-group">
+            <label for="penulis">Penulis</label>
+            <input type="text" class="form-control" name="penulis" id="penulis" value="<%= penulis %>">
+            <small class="form-text text-danger"><?= form_error('penulis') ?></small>
+      </div>
+
+      <div class="form-group">
+            <label for="tahun">Tahun</label>
+            <input type="text" class="form-control" name="tahun" id="tahun" value="<%= tahun %>">
+            <small class="form-text text-danger"><?= form_error('tahun') ?></small>
+      </div>
+
+      <div class="form-group">
+            <label for="penulis">Genre</label>
+            <input type="text" class="form-control" name="genre" id="genre" value="<%= genre %>">
+            <small class="form-text text-danger"><?= form_error('genre') ?></small>
+      </div>
+
+      <div class="form-group">
+            <label for="penulis">Harga</label>
+            <input type="text" class="form-control" name="harga" id="harga" value="<%= harga %>">
+            <small class="form-text text-danger"><?= form_error('harga') ?></small>
+      </div>
+
+      <div class="form-group">
+            <label for="penulis">Stok</label>
+            <input type="text" class="form-control" name="stok" id="stok" value="<%= stok %>">
+            <small class="form-text text-danger"><?= form_error('stok') ?></small>
+      </div>  
+   
+
+      <button type="submit" class="btn btn-primary float-right">Simpan</button>
+
+
+    <input type="hidden" name="_method" value="PUT" />
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--
+including footer content which is common for all pages
+-->
+<%- include ../layouts/footer.ejs %>

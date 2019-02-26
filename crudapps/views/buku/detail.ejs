@@ -1,0 +1,31 @@
+<%- include ../layouts/header.ejs %>
+
+<% if (messages.error) { %>
+    <p style="color:red"><%- messages.error %></p>
+<% } %>
+
+<% if (messages.success) { %>
+    <p style="color:green"><%- messages.success %></p>
+<% } %>
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-md-6">
+        <div class="card">
+        <h5 class="card-header">Detail Data Buku</h5>
+
+        <form action="/buku/detail/<%= id %>" method="post" name="form1">
+            
+            <div class="card-body">
+                <h5 class="card-title"><%= judul %></h5>
+                <p class="card-text"><%= penulis %></p>
+                <p class="card-text"><%= tahun %></p>
+                <p class="card-text"><%= genre %></p>
+                <p class="card-text">Rp. <%= harga %></p>
+
+               <br><a class="btn btn-warning" href='/buku'>Kembali</a> &nbsp;
+
+
+<!--
+including footer content which is common for all pages
+-->
+<%- include ../layouts/footer.ejs %>
