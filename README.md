@@ -1,0 +1,11 @@
+# CRUD-BUKU
+![create data buku 2](https://user-images.githubusercontent.com/35458903/53406961-a59be300-39ed-11e9-991d-4a93ace768aa.JPG)
+![daftar buku](https://user-images.githubusercontent.com/35458903/53406962-a6347980-39ed-11e9-9189-2ccd1c98fac9.JPG)
+![delete buku 1](https://user-images.githubusercontent.com/35458903/53406963-a6347980-39ed-11e9-8982-93f9816ac660.JPG)
+![delete buku 2](https://user-images.githubusercontent.com/35458903/53406965-a6cd1000-39ed-11e9-8b47-daf19e4ba078.JPG)
+![detail data buku](https://user-images.githubusercontent.com/35458903/53406966-a6cd1000-39ed-11e9-8bbc-c6322c670e75.JPG)
+![edit buku 1](https://user-images.githubusercontent.com/35458903/53406967-a765a680-39ed-11e9-80b6-eff8a50bc4c8.JPG)
+![edit buku 2](https://user-images.githubusercontent.com/35458903/53406968-a765a680-39ed-11e9-9347-b4806bb00fa2.JPG)
+![home](https://user-images.githubusercontent.com/35458903/53406971-a896d380-39ed-11e9-8bca-bc1508037fb3.JPG)
+![tampilan tabel buku](https://user-images.githubusercontent.com/35458903/53406975-a92f6a00-39ed-11e9-94c8-6f94e05df7aa.JPG)
+![create data buku 1](https://user-images.githubusercontent.com/35458903/53406977-aa609700-39ed-11e9-9e60-1aa80d42ecba.JPG)
